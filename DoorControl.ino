@@ -1,4 +1,4 @@
-/* Example sketch to control a stepper motor with Arduino Motor Shield Rev3, Arduino UNO and AccelStepper.h library: number of steps or revolutions. More info: https://www.makerguides.com */
+/* Sketch to control a stepper motor with Arduino Motor Shield Rev3, Arduino UNO and AccelStepper.h library: number of steps or revolutions.
 
 // Include the AccelStepper library:
 #include <AccelStepper.h>
