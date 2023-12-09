@@ -63,7 +63,7 @@ ESP8266WebServer server(80);
 // This will redirect to the file index.htm when it is existing otherwise to the built-in $upload.htm page
 void handleRedirect() {
   TRACE("Redirect...");
-  String url = "/index.html";
+  String url = "/index.htm";
 
   if (!LittleFS.exists(url)) { url = "/$update.htm"; }
 
